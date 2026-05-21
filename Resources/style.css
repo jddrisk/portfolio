@@ -1,0 +1,127 @@
+
+html {
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header {
+    display: inline-flex;
+}
+header > p {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+a {    
+    color: gold; /* Unvisited link */
+}
+.balls {
+    display:flex;
+    flex-wrap: wrap;
+    background-color:gray;
+    border-radius: 2rem;
+    padding:2px 1px;
+   
+
+}
+
+.balls:hover {
+    background-color: gray;
+}
+
+summary {
+    overflow: visible;
+    color: white;
+    text-align:center;
+    
+}
+details {
+    display: inline-flex;
+   
+    padding: 4% 4%;
+    margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+    border-radius:10rem;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    
+    
+}
+
+.AITech {
+    text-align:left;
+}
+
+details > p ,ul{
+    background-color:black;
+    border-radius: 1rem;
+    z-index:2;
+    position: relative;
+    padding: 4% 4%;
+    border: solid 1px gray;
+}
+
+.rules {
+    text-align: left;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.periodic {
+    display: grid;
+    border: black 1px;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: (10, 1fr);
+    width: 95%;
+    overflow: scroll;
+}
+.periodic div {
+    border: solid 1px black;
+    color: white;
+    
+}
+
+.periodic div:hover {
+    border: dotted 1px black;
+    
+}
+
+#blank {
+    border: solid 0px white;
+}
+#blank:hover {
+    background-color:white;
+}
+
+#reset {
+    color: black;
+    background-color: white;
+    
+}
+.Portrait img{
+    width: 10rem;
+    height: 7.5rem;
+}
+summary {
+    margin: 0 auto;
+    padding: 45% 5%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin:0.5rem 0.5rem;
+    padding: .5rem 0.5rem;
+    border-radius:1rem;
+}
+
+#footer{
+    margin: 0 auto;
+}
+
